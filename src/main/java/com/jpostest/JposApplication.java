@@ -24,12 +24,6 @@ public class JposApplication implements CommandLineRunner
         SpringApplication.run(JposApplication.class, args);
     }
 
-    @Bean
-    public ISOMsg isoMsg()
-    {
-        return new ISOMsg();
-    }
-
     @Override
     public void run(String... args) throws Exception
     {
